@@ -1,0 +1,62 @@
+
+body {
+  text-align: center;
+  background: url(https://i.pinimg.com/originals/34/4e/4b/344e4b473058f83a1ef86491890e1b62.jpg);
+/* Afbeeldingen altijd downloaden en in een mapje zetten, anders kan het zo zijn
+dat over een week je site broken is. */
+  color: purple;
+  font-family: Oswald;
+
+}
+h1 {
+  font-size: 400%;
+  font-family: Oswald;
+  /* Dit font herkent hij niet, fonts.google.com */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: Gold;
+}
+
+TR {
+  background-size: cover;
+  background-color: pink;
+}
+TD {
+  background-size: cover;
+  background-color: pink
+}
+P {
+  background-size: cover;
+  background-color: pink
+}
+h1 {
+  background-size: cover;
+  background-color: pink
+}
+
+a{
+  text-decoration-color: purple
+  text-decoration: none;
+}
+a:hover{
+  color: purple
+}
